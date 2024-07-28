@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- pg=page heading -->
+    <div id="pg"> 
+        <span id="pg-inner">
+            Student Portal
+        </span>  
+    </div>
+    <div id="searching-container">
+        <input type="text" id="search" placeholder="Search" >
+        <button id="search-button">Search</button>
+    </div>
+    <div class="sorting-buttons-div">
+        <button id="az-sort" class="sorting-button">Sort A->Z</button>
+        <button id="za-sort" class="sorting-button">Sort Z->A</button>
+        <button id="marks-sort" class="sorting-button">Sort By Marks</button>
+        <button id="pass-sort" class="sorting-button">Sort By Passing</button>
+        <button id="class-sort" class="sorting-button">Sort By Class</button>
+        <button id="gndr-sort" class="sorting-button">Sort By Gender</button>
+    </div>
+    <div class="table-container table-font">
+        <table   class="data-table table-font table-ini">
+            <tr id="heading">
+                <td class="table-id">ID</td>
+                <td class="table-name">Name</td>
+                <td class="table-common">Gender</td>
+                <td class="table-common">Class</td>
+                <td class="table-common">Marks</td>
+                <td class="table-common">Passing</td>
+                <td class="table-common">Email</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
